@@ -168,6 +168,10 @@ footer{
 .footer{
     display: flex;
     justify-content: space-between;
+    border-bottom:1px solid gray;
+}
+footer .material-icons{
+    color:#d74340;
 }
 footer p,
 footer h5{
@@ -200,9 +204,20 @@ input{
     border:0;
     border-radius: 2px;
     margin:10px 0px;
+    
 }
 input:nth-child(2){
     margin-top:0;
 }
+footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.footer .right p{
+    font-size:12px
+
+}
+
 
 
